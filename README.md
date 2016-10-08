@@ -8,9 +8,9 @@ In most of my solutions I would be using Dictionary class in .NET framework, it 
 2. Dictionary uses chaining as collision resolution strategy where as hashtable uses re-hashing.
 
 
-#1 First Question: (GrouShiftter.cs)
+#1 First Question: (GroupShifter.cs)
 -------------------------------------------------------------------------------------------------------------------
-  Given an array of strings (all lowercase letters), the task is to group them in such a way that all strings in a group are shifted versions of each other.
+  Given an array of strings, the task is to group them in such a way that all strings in a group are shifted versions of each other.
 
   Two string S and T are called shifted if,
   S.length = T.length 
