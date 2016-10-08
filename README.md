@@ -30,11 +30,15 @@ In most of my solutions I would be using Dictionary class in .NET framework, it 
 Given an input array of number, find the list of all sub arrays whose sum in zero. 
 SubArray meaning it should consider only contigious elements
 
-Input:  arr = [6, 3, -1, -3, 4, -2, 2,
-             4, 6, -12, -7]
+Input:  arr = [6, 3, -1, -3, 4, -2, 2, 4, 6, -12, -7]
+
 Output:  
 [2, 4],
+
 [2, 6],
+
 [5, 6],
+
 [6, 9],
+
 [0, 10]
