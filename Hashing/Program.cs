@@ -10,10 +10,15 @@ namespace Hashing
     {
         static void Main(string[] args)
         {
-            GroupShifter gs = new GroupShifter();
-            var input = new List<string>(){"acd", "dfg", "wyz", "yab", "mop",
-                    "bdfh", "a", "x", "moqs"};
-            gs.GetGroupShiftedStrings(input);
+            //GroupShifter gs = new GroupShifter();
+            //var input = new List<string>(){"acd", "dfg", "wyz", "yab", "mop",
+            //        "bdfh", "a", "x", "moqs"};
+            //gs.GetGroupShiftedStrings(input);
+
+
+            SubArrayWithZeroSum sZero = new SubArrayWithZeroSum();
+            var input2 = new List<int> { 6, 3, -1, -3, 4, -2, 2, 4, 6, -12, -7 };
+            sZero.PrintOutput(sZero.GetSubArryasWithZeroSum(input2));
             Console.ReadLine();
         }
     }
