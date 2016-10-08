@@ -52,3 +52,21 @@ Input:  {1, 4, 20, 3, 10, 5}, sum = 33
 
 Ouptut: [2, 4]
 
+#4 Fourth Question: (ProductFinder.cs)
+------------------------------------------------------------------------------------------------------------------------
+
+Given an input array of numbers and a product, check if there is a pair within the array whose product equals the given sum.
+
+Input : {10, 20, 9, 40} and 400;
+
+Output : True
+
+Input : {10, 20, 9, 40} and 190;
+
+Output : False
+
+Input : {-10, 20, 9, 40} and -400;
+
+Output : True
+
+
