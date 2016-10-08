@@ -24,10 +24,13 @@ namespace Hashing
             //var result = saSum.GetSubArrayWithSum(new List<int> { 1, 4, 20, 3, 10, 5 }, 33);
             //Console.WriteLine("["+result.StartIndex+", "+ result.EndIndex+"]");
 
-            ProductFinder pf = new ProductFinder();
-            Console.WriteLine(pf.IsProductPairAvailable(new List<int> { 10, 20, 9, 40 }, 400));
-            Console.WriteLine(pf.IsProductPairAvailable(new List<int> { 10, 20, 9, 40 }, 190));
-            Console.WriteLine(pf.IsProductPairAvailable(new List<int> { -10, 20, 9, 40 }, -400));
+            //ProductFinder pf = new ProductFinder();
+            //Console.WriteLine(pf.IsProductPairAvailable(new List<int> { 10, 20, 9, 40 }, 400));
+            //Console.WriteLine(pf.IsProductPairAvailable(new List<int> { 10, 20, 9, 40 }, 190));
+            //Console.WriteLine(pf.IsProductPairAvailable(new List<int> { -10, 20, 9, 40 }, -400));
+
+            MissingElements me = new MissingElements();
+            me.PrintOutput(me.GetMissingElements(new List<int> { 10, 12, 11, 15 }, 10, 15));
 
             Console.ReadLine();
         }

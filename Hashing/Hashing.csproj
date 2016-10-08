@@ -44,6 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="GroupShifter.cs" />
+    <Compile Include="MissingElements.cs" />
     <Compile Include="ProductFinder.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
