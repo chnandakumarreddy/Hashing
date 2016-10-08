@@ -42,3 +42,13 @@ Output:
 [6, 9],
 
 [0, 10]
+
+#3 Third Question: (SubArrayWithSum.cs)
+------------------------------------------------------------------------------------------------------------------------
+
+Given an input array of numbers and a sum, find the first occurence of sub array within the input array whose sume matches the given input sum.
+
+Input:  {1, 4, 20, 3, 10, 5}, sum = 33
+
+Ouptut: [2, 4]
+
