@@ -8,8 +8,8 @@ In most of my solutions I would be using Dictionary class in .NET framework, it 
 2. Dictionary uses chaining as collision resolution strategy where as hashtable uses re-hashing.
 
 
-First Question: (GrouShiftter.cs)
-
+#1 First Question: (GrouShiftter.cs)
+-------------------------------------------------------------------------------------------------------------------
   Given an array of strings (all lowercase letters), the task is to group them in such a way that all strings in a group are shifted versions of each other.
 
   Two string S and T are called shifted if,
@@ -24,3 +24,17 @@ First Question: (GrouShiftter.cs)
              {acd dfg wyz yab mop},
              {bdfh moqs}
 
+#2 Second Question: (SubArrayWithZeroSum.cs)
+---------------------------------------------------------------------------------------------------------------------
+
+Given an input array of number, find the list of all sub arrays whose sum in zero. 
+SubArray meaning it should consider only contigious elements
+
+Input:  arr = [6, 3, -1, -3, 4, -2, 2,
+             4, 6, -12, -7]
+Output:  
+[2, 4]
+[2, 6]         
+[5, 6]
+[6, 9]
+[0, 10]
