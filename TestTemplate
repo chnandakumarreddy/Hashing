@@ -1,0 +1,9 @@
+Description: "Basic SNS Topic for StackSet ProvisionedProduct Tests"
+Parameters:
+  DisplayName:
+    Type: String
+Resources:
+  TestSnsTopic:
+    Type: "AWS::SNS::Topic"
+    Properties:
+      DisplayName: !Ref DisplayName
